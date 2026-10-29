@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "orange_jaffa": {
+      "conditions": {
+        "recipes": "jaffa:orange_jaffa"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "apple_jaffa": {
+      "conditions": {
+        "recipes": "jaffa:apple_jaffa"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "lime_jaffa": {
+      "conditions": {
+        "recipes": "jaffa:lime_jaffa"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "jaffa:loaf"
+    },
+    "title": {
+      "translate": "advancements.jaffa.jaffa_cook.title"
+    },
+    "description": {
+      "translate": "advancements.jaffa.jaffa_cook.description"
+    }
+  },
+  "requirements": [
+    [
+      "orange_jaffa",
+      "apple_jaffa",
+      "lime_jaffa"
+    ]
+  ]
+}

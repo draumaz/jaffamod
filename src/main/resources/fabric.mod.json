@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "jaffa",
+	"version": "${version}",
+	"name": "Jaffa Cakes",
+	"description": "Jaffa Cakes, oranges, limes, chocolate and a different kind of bread. I MAEK JAFFA.",
+	"authors": [
+		"Erekohn"
+	],
+	"contributors": [
+		"Tim Flynn"
+	],
+	"icon": "assets/jaffa/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"tk.erekohn.mods.Jaffa"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

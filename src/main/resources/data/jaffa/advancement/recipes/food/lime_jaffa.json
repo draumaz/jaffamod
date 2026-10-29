@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_loaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaffa:loaf"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "jaffa:lime_jaffa"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_loaf"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaffa:lime_jaffa"
+    ]
+  }
+}

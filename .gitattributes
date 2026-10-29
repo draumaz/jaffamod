@@ -20,3 +20,9 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Gradle wrapper scripts
+gradlew   text eol=lf
+*.bat     text eol=crlf
+*.png     binary
+*.jar     binary

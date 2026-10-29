@@ -1,0 +1,16 @@
+{
+	"item.jaffa.orange_jaffa": "Orange Jaffa",
+	"item.jaffa.apple_jaffa": "Apple Jaffa",
+	"item.jaffa.lime_jaffa": "Lime Jaffa",
+	"item.jaffa.orange": "Orange",
+	"item.jaffa.lime": "Lime",
+	"item.jaffa.chocolate_orange": "Chocolate Orange",
+	"item.jaffa.chocolate_apple": "Chocolate Apple",
+	"item.jaffa.chocolate_bar": "Chocolate Bar",
+	"item.jaffa.chocolate_lime": "Chocolate Lime",
+	"item.jaffa.dough": "Dough",
+	"item.jaffa.loaf": "Loaf",
+
+	"advancements.jaffa.jaffa_cook.title": "I MAEK JAFFA",
+	"advancements.jaffa.jaffa_cook.description": "A different kind of bread."
+}

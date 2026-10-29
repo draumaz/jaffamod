@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": "minecraft:apple",
+    "O": "minecraft:lime_dye"
+  },
+  "pattern": [
+    "XO"
+  ],
+  "result": {
+    "id": "jaffa:lime"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chocolate_bar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaffa:chocolate_bar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "jaffa:chocolate_orange"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chocolate_bar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaffa:chocolate_orange"
+    ]
+  }
+}

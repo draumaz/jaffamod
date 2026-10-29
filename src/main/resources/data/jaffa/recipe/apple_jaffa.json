@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": "jaffa:loaf",
+    "O": "jaffa:chocolate_apple"
+  },
+  "pattern": [
+    "XOX"
+  ],
+  "result": {
+    "id": "jaffa:apple_jaffa"
+  }
+}
